@@ -1,0 +1,15 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "../scripts/whiteSpaceFunc.js",
+  "scripts": {
+    "test": "tape week-3-project-daabest/tests/test.js | tap-spec"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tap-spec": "^5.0.0",
+    "tape": "^4.10.1"
+  }
+}
