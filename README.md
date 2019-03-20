@@ -24,9 +24,10 @@ Burhan @Baalwaan
 - dynamic website featuring content generated with two APIs
 - mobile-first design
 - accessible 
+- small, pure and tested JS functions
 
 ### Streach Goals:
-
+- refine the design 
 
 ## Problems & what we've learned
 
