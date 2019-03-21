@@ -41,7 +41,7 @@ function getWiki() {
 
       let objName = Object.keys(wikiObj.query.pages)[0];
       document.querySelector('.wiki-title').textContent = wikiObj.query.pages[objName].title;
-      document.querySelector('.definition').textContent = wikiObj.query.pages[objName].extract;
+      document.querySelector('.paragraph').textContent = wikiObj.query.pages[objName].extract;
     }
   };
   xhr.open("GET", urlWiki, true);
