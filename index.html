@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>DICT-PICT</title>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Permanent+Marker" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./styles/normalise.css">
     <link rel="stylesheet" type="text/css" href="./styles/styles.css">
 </head>
@@ -12,18 +13,35 @@
     <h1>DICT-PICT</h1>
     <section class="search-space">
         <input type="text">
-        <button>SEARCH</button>
+        <button class="search-space__button">SEARCH</button>
     </section>
     <section class="results">
-        <div class="wiki-container">
-            <div class="definition"></div>
-        </div>
-        <div class="giphy-container">
-            <div class="giphy-container__gif1"></div>
-            <div class="giphy-container__gif2"></div>
-            <div class="giphy-container__gif3"></div>
-        </div>
+        <!-- <div class="wiki-container"> -->
+        <div class="definition">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots
+            in a
+            piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a
+            Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,
+            consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical
+            literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of
+            "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book
+            is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem
+            Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.
+            Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their
+            exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</div>
+        <!-- </div>
+        <div class="giphy-container"> -->
+        <img class="giphy-container__gif1">
+        <!-- <div class="placeholder"> -->
+        <img class="giphy-container__gif2">
+        <img class="giphy-container__gif3">
+        <!-- </div> -->
+        <!-- </div> -->
     </section>
+
+    <script type="text/javascript" src="./scripts/APIcalls.js"></script>
+    <script type="text/javascript" src="./scripts/dom.js"></script>
 </body>
 
 </html>

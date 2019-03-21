@@ -1,0 +1,53 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #040108;
+    color: #FAF9FB;
+}
+
+h1 {
+    font-size: 5em;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.results {
+    display: flex;
+    flex-direction: column;
+}
+
+.giphy-container {
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (min-width: 1000px) {
+    .definition {
+        grid-area: definition;
+    }
+
+    .giphy-container__gif1 {
+        grid-area: giphy-container__gif1;
+    }
+
+    .giphy-container__gif2 {
+        grid-area: giphy-container__gif2;
+    }
+
+    .giphy-container__gif3 {
+        grid-area: giphy-container__gif3;
+    }
+
+    .results {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto;
+        grid-template-areas:
+            "definition giphy-container__gif1"
+            "giphy-container__gif2 giphy-container__gif3";
+        width: 100%;
+    }
+
+    .results img {
+        width: 100%;
+        height: auto;
+    }
+}
