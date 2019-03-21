@@ -8,6 +8,19 @@ Dylan @Dalmano :heart: Anna T @tloth :heart: Anna B @aniablaziak :heart: Burhan 
 ![Dylan](https://media0.giphy.com/media/4RKtYV9MtwjxC/giphy.gif?cid=3640f6095c93c1c73445464251344097)
 
 ## 🔎How to set up this project:
+🔎How to set up this project:
+1.	Clone repository to your machine, in a directory of your choice (you can do this through github or Command Line Interface)
+
+2.	Locate project in Command Line interface, like example below:
+
+*cd /Users/burhan/Desktop/FAC/Wk3/week-3-project-daabest*
+
+3.	Then type *npm i* (this installs the package manager, which also includes packages which are used for testing);
+
+4.	In command Line type *npm test* to run tests on the whiteSpaceFunc(). 
+
+5.	To see Dipict in action, either open the index.html file using your browser or see it on githubpages:
+**https://fac-sixteen.github.io/week-3-project-daabest/**
 
 ## 🔭Overview:
 Dipict is a web app that lets the user search for a word and provides a dictionary definition and pictures (gifs) of it.
