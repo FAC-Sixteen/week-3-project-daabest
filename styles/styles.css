@@ -48,9 +48,16 @@ h2 {
     margin-top: 15px;
     background-color: rgba(250, 250, 101, 0.863);
     font-family: 'Permanent Marker', cursive;
+    cursor: pointer;
+    transition: all .7s ease;
+}
+
+.search-space__button:hover {
+    color: rgb(105, 105, 105);
 }
 
 .paragraph {
+    padding-right: 20px;
     padding-top: 5px;
     line-height: 1.4;
 }
