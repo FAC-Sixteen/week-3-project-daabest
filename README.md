@@ -49,6 +49,7 @@ Dipict is a web app that lets the user search for a word and provides a dictiona
 ## 🔓Accessibility:
 
 ## 🚨Problems & what we've learned:
+#### "I don't see anything to improve here" - Anna B
 - Finding a good API is not easy, initial APIs required too much authentication (Oxford Dictionary and Pexels).
 - The tiny things 
 - IIFE
