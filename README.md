@@ -56,7 +56,7 @@ Dipict is a web app that lets the user search for a word and provides a dictiona
 - accessible 
 - small, pure and tested JS functions
 
-### 🎳Streach Goals:
+### 🎳Stretch Goals:
 - refine the design (e.g. standardise gif containers (not actual containers, but img's))
 - abstraction
 - add randomise button for random wikipedia article and gifs
