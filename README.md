@@ -12,10 +12,11 @@ Burhan @Baalwaan
 
 ## Overview:
 ### APIs we used: 
-- Oxford Dictionary API
-- Pexels API
+- Giphy API
+- Wikipedia API
 
 ## User Journey:
+![](https://ibb.co/d5HsZcs)
 
 ## How to set up this project:
 
