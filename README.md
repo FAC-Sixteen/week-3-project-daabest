@@ -2,13 +2,7 @@
 
 ## 🐙Team: 
 
-Dylan @Dalmano
-
-Anna T @tloth
-
-Anna B @aniablaziak
-
-Burhan @Baalwaan
+Dylan @Dalmano :heart: Anna T @tloth :heart: Anna B @aniablaziak :heart: Burhan @Baalwaan
 
 ![the team](https://media2.giphy.com/media/IUf4opRxqGSpG/giphy.gif?cid=3640f6095c93c1ba472e315251df5b30)
 ![Dylan](https://media0.giphy.com/media/4RKtYV9MtwjxC/giphy.gif?cid=3640f6095c93c1c73445464251344097)
