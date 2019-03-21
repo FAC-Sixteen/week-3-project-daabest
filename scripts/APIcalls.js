@@ -42,4 +42,37 @@ function getGifs() {
 
 //   let assignGif = gifs.forEach(function(x){
 //       gifs.indexOf(x) = index;
+
 //   })
+
+
+// WIKI APIREQUEST
+(function getWiki () {
+  var xhr = new XMLHttpRequest();
+  let inputField = 'london'
+  
+  let url = `https://en.wikipedia.org/w/api.php?format=json&action=query&prop=extracts&exintro&explaintext&redirects=1&titles=${inputField}&origin=*`
+
+  xhr.onreadystatechange = function() {
+      if (xhr.readyState == 4 && xhr.status == 200) {
+
+        const wikiObj = JSON.parse(xhr.responseText);
+        console.log(wikiObj)
+
+        let objName = Object.keys(wikiObj.query.pages)[0];
+
+        // console.log(wikiObj.query.pages[objName].title);
+        
+        // console.log(wikiObj.query.pages)
+
+        // setting title of search
+        document.getElementById('wiki-container__title').textContent = wikiObj.query.pages[objName].title;
+
+        // setting snippet as div body
+       document.getElementById('wiki-container__snippet').textContent =  wikiObj.query.pages[objName].extract;
+      }
+  };
+  xhr.open("GET", url, true);
+  xhr.send();
+})();
+
