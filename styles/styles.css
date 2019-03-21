@@ -7,6 +7,34 @@ body {
 h1 {
     font-size: 5em;
     font-family: 'Permanent Marker', cursive;
+    margin: 15px;
+}
+
+.search-space {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+}
+
+.user-input {
+    /* height: 5em; */
+    font-size: 2em;
+    max-width: 60%;
+    border: solid rgba(250, 250, 101, 0.863) 5px;
+    border-radius: 20px;
+    padding: 0.2em;
+    margin: 15px 15px 0px 0px;
+}
+
+.search-space__button {
+    font-size: 2em;
+    border: 0px;
+    border-radius: 20px;
+    padding: 0.2em;
+    /* margin: 15px 0px 0px 15px; */
+    margin-top: 15px;
+    background-color: rgba(250, 250, 101, 0.863);
+    font-family: 'Permanent Marker', cursive;
 }
 
 .results {
