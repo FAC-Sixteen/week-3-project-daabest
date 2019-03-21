@@ -1,7 +1,6 @@
 function getGifs() {
   const xhr = new XMLHttpRequest();
 
-  let APIkeyGiphy = "aGajB4I8jDTbIEhwTl7NGhvANZO8iSwQ";
   let qGiphy = searchQueries[1];
   let limitGiphy = 3;
 
