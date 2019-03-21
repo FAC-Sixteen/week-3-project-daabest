@@ -16,7 +16,7 @@ Burhan @Baalwaan
 - Wikipedia API
 
 ## User Journey:
-![](https://ibb.co/d5HsZcs)
+![](https://i.ibb.co/jrj9t59/IMG-4262.jpg)
 
 ## How to set up this project:
 
