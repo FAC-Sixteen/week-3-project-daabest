@@ -22,6 +22,9 @@ Dylan @Dalmano :heart: Anna T @tloth :heart: Anna B @aniablaziak :heart: Burhan 
 5.	To see Dipict in action, either open the index.html file using your browser or see it on githubpages:
 **https://fac-sixteen.github.io/week-3-project-daabest/**
 
+
+![Lets Get it](https://media.giphy.com/media/3owvJZ6cjd5NMVyPsI/giphy.gif)
+
 ## 🔭Overview:
 Dipict is a web app that lets the user search for a word and provides a dictionary definition and pictures (gifs) of it.
 
