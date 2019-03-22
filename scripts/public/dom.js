@@ -1,17 +1,14 @@
 "use strict";
+
 const searchBtn = document.querySelector(".search-space__button");
-searchBtn.addEventListener("click", function () {
-    whiteSpaceFunc();
-    getWiki();
-    getGifs();
 
-});
-
-const enterBtn = document.addEventListener("keydown", function (e) {
-    
-if(e.keyCode == '13') {
-    whiteSpaceFunc();
-    getWiki();  
-    getGifs();
+const updateDisplay = function(event) {
+    if(event.keyCode == '13' || event.type == 'click'){
+        whiteSpaceFunc();
+        getWiki();
+        getGifs();
     }
-});
+}
+
+searchBtn.addEventListener("click", updateDisplay);
+document.addEventListener("keydown", updateDisplay);
