@@ -3,8 +3,7 @@ function getGifs() {
 
   let qGiphy = searchQueries[1];
   let limitGiphy = 3;
-
-  let urlGiphy = `https://api.giphy.com/v1/gifs/search?api_key=aGajB4I8jDTbIEhwTl7NGhvANZO8iSwQ&q=${qGiphy}&limit=${limitGiphy}`;
+  let urlGiphy = `https://api.giphy.com/v1/gifs/search?api_key=${APIkeyGiphy}&q=${qGiphy}&limit=${limitGiphy}`;
 
   xhr.onreadystatechange = function () {
     if (xhr.readyState == 4 && xhr.status == 200) {
@@ -21,6 +20,10 @@ function getGifs() {
       gif1.src = link1;
       gif2.src = link2;
       gif3.src = link3;
+
+      gif1.alt = giphyObj.data[0].title;
+      gif2.alt = giphyObj.data[1].title;
+      gif3.alt = giphyObj.data[2].title;
     }
   };
   xhr.open("GET", urlGiphy, true);
@@ -39,6 +42,8 @@ function getWiki() {
       const wikiObj = JSON.parse(xhr.responseText);
 
       let objName = Object.keys(wikiObj.query.pages)[0];
+      document.querySelector('.wiki-title').textContent = wikiObj.query.pages[objName].title;
+      document.querySelector('.paragraph').textContent = wikiObj.query.pages[objName].extract;
 
       let wikiTitle = document.querySelector('.wiki-title');
       

@@ -3,6 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="App for Dictionary definitions and Gifs!">
     <title>DIPICT</title>
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Permanent+Marker" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./styles/normalise.css">
@@ -12,21 +14,20 @@
 
 <body>
     <h1>DIPICT</h1>
-    <section class="search-space">
-        <input aria-label="enter a query" type="text" class="user-input" placeholder="Search Me">
+    <div class="search-space">
+        <input aria-label="enter a query" type="text" class="user-input" id="user-input" placeholder="Search Me">
         <button class="search-space__button">SEARCH</button>
-    </section>
-
-    <section class="results">
+    </div>
+    <div class="results">
         <div class="definition">
             <h2 class="wiki-title"></h2>
             <br>
             <p class="paragraph"></p>
         </div>
-        <img class="giphy-container__gif1">
-        <img class="giphy-container__gif2">
-        <img class="giphy-container__gif3">
-    </section>
+        <img class="giphy-container__gif1" alt="">
+        <img class="giphy-container__gif2" alt="">
+        <img class="giphy-container__gif3" alt="">
+    </div>
 
     <script type="text/javascript" src="./scripts/public/whiteSpaceFunc.js"></script>
     <script type="text/javascript" src="./scripts/public/APIkey.js"></script>
