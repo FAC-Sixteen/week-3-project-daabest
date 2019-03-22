@@ -1,5 +1,5 @@
 const test = require('tape');
-const whiteSpaceFunc = require('../scripts/whiteSpaceFunc.js');
+const whiteSpaceFunc = require('../scripts/public/whiteSpaceFunc.js');
 
 
 test('testing tape', function (t) {
