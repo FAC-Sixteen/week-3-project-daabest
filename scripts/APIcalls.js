@@ -21,6 +21,10 @@ function getGifs() {
       gif1.src = link1;
       gif2.src = link2;
       gif3.src = link3;
+
+      gif1.alt = giphyObj.data[0].title;
+      gif2.alt = giphyObj.data[1].title;
+      gif3.alt = giphyObj.data[2].title;
     }
   };
   xhr.open("GET", urlGiphy, true);
