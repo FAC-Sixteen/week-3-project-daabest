@@ -19,11 +19,26 @@ Dylan @Dalmano :heart: Anna T @tloth :heart: Anna B @aniablaziak :heart: Burhan 
 
 4.	In command Line type *npm test* to run tests on the whiteSpaceFunc(). 
 
-5.	To see Dipict in action, either open the index.html file using your browser or see it on githubpages:
+5. Set up the API key for Giphy (see _How to set up the API key_ below)
+
+6.	To see Dipict in action, either open the index.html file using your browser or see it on githubpages:
 **https://fac-sixteen.github.io/week-3-project-daabest/**
 
 
 ![Lets Get it](https://media.giphy.com/media/3owvJZ6cjd5NMVyPsI/giphy.gif)
+
+:key: How to set up the API key:
+
+1. Register on Giphy for your own API key at https://developers.giphy.com/ or ask one of us! (It's free.)
+
+2. Create a file in scripts/public/ called APIkey.js.
+
+3. In APIkey.js, declare a variable `let APIkeyGiphy` and set the value as your key.
+
+4. Don't forget to save the document!
+
+![goodie](https://66.media.tumblr.com/tumblr_lnxnbzwxDQ1qdjj7e.gif)
+
 
 ## 🔭Overview:
 Dipict is a web app that lets the user search for a word and provides a dictionary definition and pictures (gifs) of it.
