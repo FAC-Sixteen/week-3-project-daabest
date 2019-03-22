@@ -3,7 +3,6 @@ function getGifs() {
 
   let qGiphy = searchQueries[1];
   let limitGiphy = 3;
-
   let urlGiphy = `https://api.giphy.com/v1/gifs/search?api_key=${APIkeyGiphy}&q=${qGiphy}&limit=${limitGiphy}`;
 
   xhr.onreadystatechange = function () {
@@ -45,6 +44,21 @@ function getWiki() {
       let objName = Object.keys(wikiObj.query.pages)[0];
       document.querySelector('.wiki-title').textContent = wikiObj.query.pages[objName].title;
       document.querySelector('.paragraph').textContent = wikiObj.query.pages[objName].extract;
+
+      let wikiTitle = document.querySelector('.wiki-title');
+      
+      wikiTitle.textContent = wikiObj.query.pages[objName].title;
+      
+      let wikiParagraph = document.querySelector('.paragraph');
+      
+      // if search shows no wiki definition, we'll write a message to inform user about this
+      if(wikiObj.query.pages[objName].extract == undefined){
+        wikiParagraph.textContent = 'Sorry! I have got NOTHING to show you!!!';
+      } 
+      // else show definition of search
+      else{
+        wikiParagraph.textContent = wikiObj.query.pages[objName].extract;
+      }
     }
   };
   xhr.open("GET", urlWiki, true);
