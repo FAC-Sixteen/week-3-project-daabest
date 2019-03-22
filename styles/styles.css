@@ -9,6 +9,7 @@ h1 {
     font-size: 5em;
     font-family: 'Permanent Marker', cursive;
     margin: 15px 15px 15px 0;
+    letter-spacing: 7px;
 }
 
 h2 {
@@ -40,8 +41,13 @@ h2 {
     margin: 15px 15px 0px 0px;
 }
 
+.user-input:focus {
+    background-color: rgba(250, 250, 101);
+}
+
 .search-space__button {
     font-size: 2em;
+    letter-spacing: 2;
     border: 0px;
     border-radius: 20px;
     padding: 0.2em;
@@ -53,7 +59,11 @@ h2 {
 }
 
 .search-space__button:hover {
-    color: rgb(105, 105, 105);
+    transform: scale(1.10);
+}
+
+.search-space__button:active {
+    transform: scale(1);
 }
 
 .paragraph {

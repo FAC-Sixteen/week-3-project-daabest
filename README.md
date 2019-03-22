@@ -8,6 +8,22 @@ Dylan @Dalmano :heart: Anna T @tloth :heart: Anna B @aniablaziak :heart: Burhan 
 ![Dylan](https://media0.giphy.com/media/4RKtYV9MtwjxC/giphy.gif?cid=3640f6095c93c1c73445464251344097)
 
 ## 🔎How to set up this project:
+🔎How to set up this project:
+1.	Clone repository to your machine, in a directory of your choice (you can do this through github or Command Line Interface)
+
+2.	Locate project in Command Line interface, like example below:
+
+*cd /Users/burhan/Desktop/FAC/Wk3/week-3-project-daabest*
+
+3.	Then type *npm i* (this installs the package manager, which also includes packages which are used for testing);
+
+4.	In command Line type *npm test* to run tests on the whiteSpaceFunc(). 
+
+5.	To see Dipict in action, either open the index.html file using your browser or see it on githubpages:
+**https://fac-sixteen.github.io/week-3-project-daabest/**
+
+
+![Lets Get it](https://media.giphy.com/media/3owvJZ6cjd5NMVyPsI/giphy.gif)
 
 ## 🔭Overview:
 Dipict is a web app that lets the user search for a word and provides a dictionary definition and pictures (gifs) of it.
@@ -19,6 +35,9 @@ Dipict is a web app that lets the user search for a word and provides a dictiona
 ### 📚APIs we used: 
 - Giphy API
 - Wikipedia API
+
+## ✂️Testing: 
+We tried TDD and running the tests with tape. We wrote our tests first and then the whiteSpaceFunc() but later added some DOM manipulation to this function, so at the moment these tests are not running properly.
 
 ## 🗺User Journey:
 ![user journey](https://i.ibb.co/jrj9t59/IMG-4262.jpg)
@@ -40,7 +59,7 @@ Dipict is a web app that lets the user search for a word and provides a dictiona
 - accessible 
 - small, pure and tested JS functions
 
-### 🎳Streach Goals:
+### 🎳Stretch Goals:
 - refine the design (e.g. standardise gif containers (not actual containers, but img's))
 - abstraction
 - add randomise button for random wikipedia article and gifs
@@ -53,7 +72,8 @@ Dipict is a web app that lets the user search for a word and provides a dictiona
 ## 🚨Problems & what we've learned:
 ### "I don't see anything to improve here" - Anna B
 - Jinxing the project at the very beginning ("This shouldn't be that hard!")
-- Finding a good API is not easy, initial APIs required too much authentication (Oxford Dictionary and Pexels).
+- Finding a good API is not easy, initial APIs required too much authentication (Oxford Dictionary and Pexels)
+- testing 
 #### The tiny things
 ![fake smile](https://media3.giphy.com/media/SQjFdc1dWQn4c/giphy.gif?cid=3640f6095c93c068384a44694553d25c)
 - IIFE
