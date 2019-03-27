@@ -4,7 +4,7 @@ function getGifs() {
 
   const qGiphy = searchQueries[1];
   const limitGiphy = 3;
-  const urlGiphy = `https://api.giphy.com/v1/gifs/search?api_key=aGajB4I8jDTbIEhwTl7NGhvANZO8iSwQ&q=${qGiphy}&limit=${limitGiphy}`;
+  const urlGiphy = `https://api.giphy.com/v1/gifs/search?api_key=${APIkeyGiphy}&q=${qGiphy}&limit=${limitGiphy}`;
 
   xhr.onreadystatechange = function () {
     if (xhr.readyState == 4 && xhr.status == 200) {
